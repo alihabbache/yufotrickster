@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Logs
+*.log

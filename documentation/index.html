@@ -1,0 +1,468 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Identity - Responsive One Page Vcard Portfolio by TheThemeLab</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="thethemelab">
+	<meta name="copyright" content="thethemelab">
+	
+	<link rel="stylesheet" href="assets/css/style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#fff;color:#363636;}
+		::-moz-selection{background:#666;color:#98184E;}
+		::selection{background:#666;color:#98184E;}
+		#documenter_sidebar #documenter_logo{color:#fff;font-size:36px;text-align: center;margin-top:40px;}
+		a{color:#98184E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #, #);
+			  background-image: -ms-linear-gradient(top, #, #);
+			  background-image: -webkit-gradient(linear, 0 0, 0 %, from(#363636), to(#));
+			  background-image: -webkit-linear-gradient(top, #, #);
+			  background-image: -o-linear-gradient(top, #, #);
+			  background-image: linear-gradient(top, #, #);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#', endColorstr='#', GradientType=0);
+			  border-color: # # #bfbfbf;
+			  color:#;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: # # #bfbfbf;
+		  background-color: #;
+		}
+		hr{border-top:1px solid #858484;border-bottom:1px solid #CFCDCD;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#363636;color:#A8A7A7;http://static.revaxarts-themes.com/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #575757;-moz-text-shadow:1px 1px 0px #575757;text-shadow:1px 1px 0px #575757;}
+		#documenter_sidebar ul{border-top:1px solid #242424;}
+		#documenter_sidebar ul a{border-top:1px solid #575757;border-bottom:1px solid #242424;color:#A8A7A7;}
+		#documenter_sidebar ul a:hover{background:#474747;color:#fff;border-top:1px solid #474747;}
+		#documenter_sidebar ul a.current{background:#474747;color:#fff;border-top:1px solid #474747;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-surreal-studio-retina-responsive-parallax">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo">Identity</a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+      <li><a href="#html_structure_skill">Skills Configuration</a></li>
+      <li><a href="#html_structure_contact">Contact Form Settings</a></li>
+			<li><a href="#html_structure_google_map">Google Map Configuration</a></li>      
+			<li><a href="#javascript" title="Javascript">Javascript</a></li>
+			<li><a href="#css_files_structure" title="CSS Files & Structure">CSS Files & Structure</a></li>
+			<li><a href="#source_credits" title="Source & Credits">Source & Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright TheThemeLab 2014 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Identity - Responsive One Page Vcard Portfolio</h1>
+	<h2>Responsive One Page Vcard Portfolio or Resume Theme</h2>
+	<div id="documenter_buttons">
+	</div>
+	<hr>
+	<ul>
+	<li>created: 04/22/2014</li>
+	<li>by: TheThemeLab</li>
+	<li>email: <a href="mailto:saif.shajib@gmail.com">saif.shajib@gmail.com</a></li>
+	</ul>
+	<p></p>
+	</section>
+
+<section id="html_structure">
+<h4 id="html_structure">HTML Structure</h4>
+<p>All code are comment out, so you can easily edit the code what you want. Header slider image and content can be change from below code:</p>
+
+<pre class="prettyprint lang-js linenums">
+       &lt;!-- Home Section --&gt;
+&lt;section id=&quot;home&quot;&gt;
+&lt;img id=&quot;cycle-loader&quot; src=&quot;img/loader.gif&quot; alt=&quot;loader&quot;/&gt;
+&lt;div id=&quot;fullscreen-slider&quot;&gt;
+	&lt;!-- Slider image 1--&gt;
+	&lt;div class=&quot;slider-item&quot;&gt;
+		&lt;img src=&quot;images/slide1.jpg&quot; alt=&quot;&quot;&gt;
+	&lt;/div&gt;
+	&lt;!-- End Slider image 1--&gt;
+	&lt;!-- Slider image 2--&gt;
+	&lt;div class=&quot;slider-item&quot;&gt;
+		&lt;img src=&quot;images/slide2.jpg&quot; alt=&quot;&quot;&gt;
+	&lt;/div&gt;
+	&lt;!-- End Slider image 2--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;slide-content&quot;&gt;
+	&lt;div class=&quot;text-center&quot;&gt;
+		&lt;div class=&quot;header&quot;&gt;
+			&lt;div class=&quot;heading&quot;&gt;
+				Welcome to my site
+			&lt;/div&gt;
+			&lt;div class=&quot;box-heading&quot;&gt;
+				&lt;div class=&quot;box-inner&quot;&gt;
+					Jonathan Doe
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- Home Section --&gt;
+</pre>
+Upload your images on 'images' folder. And replace the name slide1.jpg, slide2.jpg. You can add more imges like it. Or you can show single image there, just delete the 'Slider image 2' content. 
+<p>Navigation Bar script:</p>
+<pre class="prettyprint lang-js linenums">
+&lt;!-- Navbar --&gt;
+&lt;div class=&quot;navbar navbar-transparent navbar-fixed-top&quot;&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;div class=&quot;navbar-header&quot;&gt;
+			&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+			&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+			&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+			&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+			&lt;/button&gt;
+			&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;images/logo.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;nav id=&quot;my-nav&quot; class=&quot;navbar-collapse collapse&quot; role=&quot;navigation&quot;&gt;
+		&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#portfolio&quot;&gt;Works&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#skill&quot;&gt;Skills&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#experience&quot;&gt;Resume&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#clients&quot;&gt;Clients&lt;/a&gt;
+			&lt;/li&gt;
+      &lt;li&gt;
+			&lt;a href=&quot;#process&quot;&gt;Process&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+			&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;!--/.navbar-collapse --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- End Navbar --&gt;      
+</pre>
+<p>About Section:</p>
+<pre class="prettyprint lang-js linenums">
+    &lt;!-- About Section --&gt;
+&lt;section id=&quot;about&quot; class=&quot;section-content bg1&quot;&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;!-- Section Title --&gt;
+		&lt;div class=&quot;section-title item_bottom text-center&quot;&gt;
+			&lt;div&gt;
+				&lt;span class=&quot;fa fa-user fa-2x&quot;&gt;&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;h1&gt;About &lt;span&gt;Me&lt;/span&gt;&lt;/h1&gt;
+		&lt;/div&gt;
+		&lt;!-- End Section Title --&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-md-4 text-center item_bottom&quot;&gt;
+			&lt;img src=&quot;images/photo.jpg&quot; class=&quot;img-center img-responsive&quot; alt=&quot;My photo&quot;/&gt;
+			&lt;!-- YOUR PHOTO --&gt;
+			&lt;div class=&quot;name-title&quot;&gt;
+				&lt;h2&gt;Jonathan Doe&lt;/h2&gt;
+				&lt;!-- Your Name --&gt;
+				&lt;h5&gt;UI/UX Designer&lt;/h5&gt;
+				&lt;!-- Your Designation --&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+    &lt;!-- some text about yourself --&gt;
+		&lt;div class=&quot;col-md-4 item_top&quot;&gt;
+			&lt;p class=&quot;quoteline&quot;&gt;
+				Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.
+			&lt;/p&gt;
+			&lt;p&gt;
+				Hello, I'm a UI/UX Designer &amp; Front End Developer from Dhaka, Bangladesh. I hold a master degree of Web Design from the St. Patrick University.
+			&lt;/p&gt;
+			&lt;p&gt;
+				 I currently work at Intel, where I spend most of my time crafting and working on awesome projects. Lorem ipsum dolor sit amet consectetuer Integer eleifend Curabitur id ut. Quisque Aenean ut pede id elit ligula est mollis sapien magna. Urna turpis quis sagittis at ac Sed augue habitant tortor elit. Dolor Quisque et elit aliquam vitae habitant.
+			&lt;/p&gt;
+      &lt;p class=&quot;text-right&quot;&gt;
+      &lt;img src=&quot;images/signature.png&quot; alt=&quot;signature&quot; /&gt;
+      &lt;/p&gt;
+		&lt;/div&gt;
+    &lt;!-- ./some text about yourself --&gt;
+		&lt;div class=&quot;col-md-4 item_bottom&quot;&gt;
+      &lt;!-- some information list --&gt;
+		  &lt;ul class=&quot;fa-ul&quot;&gt;
+				&lt;li&gt;&lt;i class=&quot;fa fa-li fa-calendar&quot;&gt;&lt;/i&gt;&lt;strong&gt;Birthdate&lt;/strong&gt; : 02/09/1982&lt;/li&gt;
+				&lt;li&gt;&lt;i class=&quot;fa fa-li fa-mobile&quot;&gt;&lt;/i&gt;&lt;strong&gt;Phone&lt;/strong&gt; : +1 343-234-4343&lt;/li&gt;
+				&lt;li&gt;&lt;i class=&quot;fa fa-li fa-envelope-o&quot;&gt;&lt;/i&gt;&lt;strong&gt;Email&lt;/strong&gt; : john@example.com&lt;/li&gt;
+				&lt;li&gt;&lt;i class=&quot;fa fa-li fa-globe&quot;&gt;&lt;/i&gt;&lt;strong&gt;Website&lt;/strong&gt; : www.example.com&lt;/li&gt;
+				&lt;li&gt;&lt;i class=&quot;fa fa-li fa-home&quot;&gt;&lt;/i&gt;&lt;strong&gt;Adresse&lt;/strong&gt; : 12 Segun Bagicha, 10th Floor,&lt;br&gt;Dhaka 1000, Bangladesh.&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;!-- ./some information list --&gt;
+      &lt;!-- some number facts --&gt;
+			&lt;div class=&quot;number-counters text-center new-line&quot;&gt;
+				&lt;div class=&quot;counters-item&quot;&gt;
+					&lt;i class=&quot;fa fa-group fa-2x&quot;&gt;&lt;/i&gt;
+					&lt;strong data-to=&quot;150&quot;&gt;0&lt;/strong&gt;
+					&lt;!-- Set Your Number here. i,e. data-to=&quot;56&quot; --&gt;
+					&lt;p&gt;
+						Happy Clients
+					&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;counters-item&quot;&gt;
+					&lt;i class=&quot;fa fa-flag fa-2x&quot;&gt;&lt;/i&gt;
+					&lt;strong data-to=&quot;7&quot;&gt;0&lt;/strong&gt;
+					&lt;!-- Set Your Number here. i,e. data-to=&quot;56&quot; --&gt;
+					&lt;p&gt;
+						Year Experience
+					&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;counters-item&quot;&gt;
+					&lt;i class=&quot;fa fa-trophy fa-2x&quot;&gt;&lt;/i&gt;
+					&lt;strong data-to=&quot;13&quot;&gt;0&lt;/strong&gt;
+					&lt;!-- Set Your Number here. i,e. data-to=&quot;56&quot; --&gt;
+					&lt;p&gt;
+						Awards Won
+					&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;counters-item&quot;&gt;
+					&lt;i class=&quot;fa fa-thumbs-up fa-2x&quot;&gt;&lt;/i&gt;
+					&lt;strong data-to=&quot;520&quot;&gt;0&lt;/strong&gt;
+					&lt;!-- Set Your Number here. i,e. data-to=&quot;56&quot; --&gt;
+					&lt;p&gt;
+						Projects Done
+					&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+      &lt;!-- ./some number facts --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row services&quot;&gt;
+		&lt;div class=&quot;col-md-4&quot;&gt;
+			&lt;!-- Service --&gt;
+			&lt;div class=&quot;services-box new-line item_left&quot;&gt;
+				&lt;h4&gt;Customer Support&lt;/h4&gt;
+				&lt;div class=&quot;services-box-icon&quot;&gt;
+					&lt;i class=&quot;fa fa-smile-o fa-3x&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;service-box-info&quot;&gt;
+					&lt;p&gt;
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
+					&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!-- End Service --&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;col-md-4&quot;&gt;
+			&lt;!-- Service --&gt;
+			&lt;div class=&quot;services-box new-line item_bottom&quot;&gt;
+				&lt;h4&gt;Web Design&lt;/h4&gt;
+				&lt;div class=&quot;services-box-icon&quot;&gt;
+					&lt;i class=&quot;fa fa-html5 fa-3x&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;service-box-info&quot;&gt;
+					&lt;p&gt;
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
+					&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!-- End Service --&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;col-md-4 clearfix&quot;&gt;
+			&lt;!-- Service --&gt;
+			&lt;div class=&quot;services-box new-line item_right&quot;&gt;
+				&lt;h4&gt;Wordpress Themes&lt;/h4&gt;
+				&lt;div class=&quot;services-box-icon&quot;&gt;
+					&lt;i class=&quot;fa fa-link fa-3x&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;service-box-info&quot;&gt;
+					&lt;p&gt;
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
+					&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!-- End Service --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;                      
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- End About Section --&gt;             
+</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="html_structure_skill">
+<h4>Skill Configuration</h4>
+<p>	In this theme there have 2 types of skill style. On top section, there are some circular chart. And bottom there are some bar/line chart. You can easily change it from HTML area on index file. For circular chart:</p>
+<pre class="prettyprint lang-js linenums">
+&lt;div class=&quot;chart&quot; data-percent=&quot;91&quot;&gt;
+			&lt;span class=&quot;percent&quot;&gt;91&lt;/span&gt;
+			&lt;h4&gt;Photoshop&lt;/h4&gt;
+			&lt;p&gt;
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			&lt;/p&gt;
+			&lt;/div&gt;
+</pre>
+<p>You have to change 'data-percent' value. Change the title and description from below.</p>
+<p>For bar/line chart:</p>
+<pre class="prettyprint lang-js linenums">
+&lt;div class=&quot;skillBg&quot;&gt;
+					&lt;span data-width=&quot;80&quot;&gt;&lt;strong&gt;English 80%&lt;/strong&gt;&lt;/span&gt;
+				&lt;/div&gt;
+</pre>
+<p>Just need to change the 'data-width' value to show this chart.</p>
+<p>	&nbsp;</p>
+</section>
+<section id="html_structure_contact">
+<h4>Contact Form Settings</h4>
+<p>	Open sendemail.php. On 5th line, you get "$to = 'saif.shajib@gmail.com';  // Change it by your email address". Just replace saif.shajib@gmail.com id to your email ID.
+If you want to change the subject of mail, the you can get it on HTML area on form section. Code are find below:</p>
+<pre class="prettyprint lang-js linenums">
+&lt;form method=&quot;post&quot; name=&quot;contactform&quot; id=&quot;contactform&quot; class=&quot;form validate item_bottom&quot; role=&quot;form&quot;&gt;
+				&lt;div class=&quot;form-group&quot;&gt;
+					&lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; class=&quot;form-control required&quot; placeholder=&quot;Name&quot;&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;form-group&quot;&gt;
+					&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; class=&quot;form-control required email&quot; placeholder=&quot;Email&quot;&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;form-group&quot;&gt;
+					&lt;textarea name=&quot;message&quot; id=&quot;message&quot; class=&quot;form-control input-lg required&quot; rows=&quot;9&quot; placeholder=&quot;Enter Message&quot;&gt;&lt;/textarea&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;form-group text-center&quot;&gt;
+					&lt;input type=&quot;submit&quot; id=&quot;contactForm_submit&quot; class=&quot;btn btn-trans btn-border btn-full&quot; value=&quot;Submit&quot;&gt;
+				&lt;/div&gt;
+				&lt;input type=&quot;hidden&quot; name=&quot;subject&quot; value=&quot;Contact from your site&quot;&gt;
+			&lt;/form&gt;
+</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="html_structure_google_map">
+<h4>Google Map Configuration</h4>
+<p>Open js/gmap-settings.js file. Then set your longitude and latitude value. You can get your longitude and latitude value from http://universimmedia.pagesperso-orange.fr/geo/loc.htm.</p>
+<p>Also you have to chnge the 'contentString' from below code. Get this code on line 30.</p>
+
+<pre class="prettyprint lang-js linenums">
+var contentString = '&lt;div style=&quot;max-width: 300px&quot; id=&quot;content&quot;&gt;'+
+      '&lt;div id=&quot;bodyContent&quot;&gt;'+
+	  '&lt;h4&gt;Jonathan Doe&lt;/h4&gt;' +
+      '&lt;p style=&quot;font-size: 12px&quot;&gt;12, Segun Bagicha, 10th floor, Dhaka, Bangladesh. Lorem ipsum dolor sit amet incididunt ut labore et dolore psum dolor magna aliqua.&lt;/p&gt;'+
+      '&lt;/div&gt;'+
+      '&lt;/div&gt;';  
+</pre>
+<p>	&nbsp;</p>
+</section>
+
+<section id="javascript">
+	<div class="page-header"><h3>Javascript</h3><hr class="notop"></div>
+<p>
+	There are several Javascript files included. The full list is below:</p>
+<pre class="prettyprint lang-js linenums">
+&lt;!-- Js Library --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/modernizr.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-1.10.2.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.sticky.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.easing-1.3.pack.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/bootstrap-modal.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.parallax-1.1.3.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.appear.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.cycle.all.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.flexslider.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.fitvids.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.maximage.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/swiper.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/waypoints.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-countTo.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/easyPieChart.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/smoothscroll.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/skrollr.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.isotope.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.nicescroll.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.validate.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://maps.googleapis.com/maps/api/js?sensor=false&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/gmap-settings.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/script.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Js Library --&gt;
+</pre>
+<p>
+	<a href="http://modernizr.com/docs/" target="_blank"><strong>Modernizr</strong></a> - Modernizr is a small JavaScript library that <em>detects</em> the availability of native implementations for next-generation web technologies, i.e. features that stem from the HTML5 and CSS3 specifications.</p>
+<p>
+	<a href="http://docs.jquery.com/Main_Page" target="_blank"><strong>jQuery</strong></a> - jQuery is a Javascript library that greatly reduces the amount of code that you must write.</p>
+</section>
+
+<section id="css_files_structure">
+	<div class="page-header"><h3>CSS Files & Structure</h3><hr class="notop"></div>
+<pre class="prettyprint lang-js linenums">  
+		&lt;!-- List of Stylesheet --&gt;
+		&lt;link type='text/css' href=&quot;css/normalize.css&quot; rel=&quot;stylesheet&quot;&gt;
+		&lt;link type='text/css' href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+		&lt;link type='text/css' href=&quot;css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+		&lt;link type='text/css' href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+		&lt;link type='text/css' href=&quot;css/style-responsive.css&quot; rel=&quot;stylesheet&quot;&gt;
+</pre>      
+<h3>bootstrap.min</h3>
+<p>Main stylesheet of Bootstrap 3</p>  
+<h3>font-awesome.min</h3>
+<p>Font awesome core css file.</p>
+<h3>style.css</h3>
+<p>	This file contains the all style of this page.</p>
+<h3>style-responsive.css</h3>
+<p>	This file contains style for different resolution</p>  
+
+</section>
+<section id="source_credits">
+	<div class="page-header"><h3>Source & Credits</h3><hr class="notop"></div>
+<p>
+	<a href="http://modernizr.com/" target="_blank">Modernizr</a></p>
+<p>
+	<a href="http://jquery.com/" target="_blank">jQuery</a></p>
+<p> <a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr</a></p>
+<p> <a href="http://rendro.github.io/easy-pie-chart/" target="_blank">EasyPieChart</a></p>
+<p> <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></p>
+<p> <a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></p>
+<p> <a href="http://stickyjs.com/" target="_blank">Sticky</a></p>
+<p> <a href="http://imakewebthings.com/jquery-waypoints/" target="_blank">Waypoint</a></p>
+<p> <a href="http://cferdinandi.github.io/smooth-scroll/" target="_blank">SmoothScroll</a></p>
+<p> <a href="https://github.com/wagerfield/parallax" target="_blank">Parallax</a></p>
+<p> <a href="http://www.aaronvanderzwan.com/maximage/" target="_blank">Maximage 2</a></p>
+<p>NiceScroll</p>
+</section>
+ <h1>THANK YOU, For purchase my theme. Please don't forget to rate my theme.</h1>
+	</div>
+</body>
+</html>
