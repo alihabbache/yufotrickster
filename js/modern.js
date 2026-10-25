@@ -75,7 +75,7 @@
 
   /* ---------- Hero: rotating word ---------- */
   var rot = $('#rot');
-  var words = ['handstands', 'contortion', 'breakin', 'mobility', 'live shows'];
+  var words = ['handstands', 'flexibility', 'backbends', 'splits', 'mobility'];
   if (rot && !reduce) {
     var wi = 0;
     setInterval(function () {
@@ -129,7 +129,11 @@
   var DATA = window.PORTFOLIO || [];
   var grid = $('#grid'), filtersEl = $('#filters'), moreBtn = $('#more');
   var PAGE = 12, shown = PAGE, current = 'All';
-  var ORDER = ['All', 'Handstand', 'Contortion', 'Breakin', 'Tutorials', 'Workshops', 'Photography', 'Shows & TV', 'Press'];
+  // Coaching content first; performance and press last
+  var ORDER = ['All', 'Handstand', 'Workshops', 'Tutorials', 'Contortion', 'Photography', 'Breakin', 'Shows & TV', 'Press'];
+  DATA = DATA.map(function (d, i) { return { d: d, i: i }; })
+    .sort(function (a, b) { return (ORDER.indexOf(a.d.cat) - ORDER.indexOf(b.d.cat)) || (a.i - b.i); })
+    .map(function (x) { return x.d; });
   var enc = function (p) { return encodeURI(p); };
 
   var cats = ['All'].concat(ORDER.slice(1).filter(function (c) { return DATA.some(function (d) { return d.cat === c; }); }));

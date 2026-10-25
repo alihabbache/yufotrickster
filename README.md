@@ -1,6 +1,6 @@
 # Yufo Trickster
 
-Portfolio website for **Yufo Trickster**: handstand instructor, contortionist, B-boy and brand ambassador athlete. Visitors can browse the portfolio and book one-on-one classes, workshops and live performances.
+Portfolio website for **Yufo Trickster**: handstand and flexibility coach based in Surrey and London. Visitors can explore coaching offerings, browse workshops and tutorials, book 1-on-1 sessions, and pitch collaborations.
 
 ## Security
 
