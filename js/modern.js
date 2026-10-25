@@ -282,6 +282,17 @@
   $('#slider').addEventListener('mouseleave', auto);
   go(0); auto();
 
+  /* ---------- Instagram Embeds Refresh ---------- */
+  function processIgEmbeds() {
+    if (window.instgrm && window.instgrm.Embeds) {
+      window.instgrm.Embeds.process();
+    }
+  }
+  window.addEventListener('load', processIgEmbeds);
+  setTimeout(processIgEmbeds, 1000);
+
   /* ---------- Misc ---------- */
   $('#year').textContent = new Date().getFullYear();
 })();
+
+
