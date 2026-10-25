@@ -195,6 +195,10 @@ h2 em,.hero-title em,.band h2 em{font-style:italic;color:var(--accent)}
 .sec-head-split{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px}
 .btn-ig{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);color:#fff;font:700 .85rem/1 var(--font-b);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;box-shadow:0 10px 28px -8px rgba(220,39,67,.55);transition:transform .25s var(--ease),box-shadow .25s var(--ease),filter .25s}
 .btn-ig:hover{transform:translateY(-3px);box-shadow:0 14px 34px -6px rgba(220,39,67,.8);filter:brightness(1.1);color:#fff}
+.ig-feed{display:block;margin-top:8px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
+.ig-feed img{display:block;width:100%;height:auto;transition:opacity .2s}
+.ig-feed:hover img{opacity:.9}
+
 .btn-ig svg{flex:none}
 .ig-banner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;margin-top:32px;padding:36px 40px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);position:relative;overflow:hidden}
 .ig-banner::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at top right,rgba(220,39,67,.12),transparent 60%);pointer-events:none}
