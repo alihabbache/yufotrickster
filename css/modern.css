@@ -326,5 +326,6 @@ h2 em,.hero-title em,.band h2 em{font-style:italic;color:var(--accent)}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .ticker-track{animation:tick 28s linear infinite!important}
   .js .reveal{opacity:1;transform:none}
 }
